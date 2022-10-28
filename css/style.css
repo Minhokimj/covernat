@@ -1407,3 +1407,13 @@ header{
         border-top:0;
     }
 }
+
+@media all and (max-width:400px){
+    .sec5_rotate_img .txt_box{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-self: flex-start;
+        padding: 0 16px;
+    }
+}
